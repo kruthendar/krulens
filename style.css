@@ -18,6 +18,21 @@ body {
   margin: 0;
 }
 
+.profile-name {
+  position: relative;
+  display: flex;
+}
+.profile-img img{
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  height: 110px;
+  width: 110px;
+  top: -15px;
+  left: -10px;
+}
+
+
 .music-container {
   background-color: white;
   border-radius: 15px;

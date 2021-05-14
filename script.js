@@ -15,7 +15,7 @@ const durTime = document.querySelector('#durTime');
 const songs = ['James Bay - Us', 'Love Me Like You Do', 'Put Your Head On My Shoulder', 'Silhouette', 'This town'];
 
 // Keep track of song
-let songIndex = 1;
+let songIndex = 0;
 
 // Initially load song details into DOM
 loadSong(songs[songIndex]);
